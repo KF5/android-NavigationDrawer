@@ -47,7 +47,7 @@ public class MessageOnlyLogFilter implements LogNode {
      * Returns the next LogNode in the chain.
      */
     public LogNode getNext() {
-        return mNext;
+        return mNext; 
     }
 
     /**
